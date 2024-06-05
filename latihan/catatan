@@ -1,0 +1,36 @@
+//URUTAN
+package latihan; //nama folder
+
+public class Block { //nama file
+    public static void main(String[] args)
+    {
+
+    }
+}
+
+
+//EXPRESSION
+int nama;
+nama = "mita";
+System.out.println(nama = "Mita"); //nama="Mita" masuk ke expression, sedangkan System.out.println(nama = "Mita"); masuk ke statement
+
+//STATEMENT
+//assigment statement
+double a = 8933.234; 
+//increment statement
+a++; 
+//method invocation statement
+System.out.println("HelloWorld"); //System.out.println ini method
+//object creation statement
+Date date = new Date();
+
+
+//BLOCK
+public class catatan { //awalan block
+    public static void main(String[] args)
+    { //awalan block
+        Double a = 8933.234;
+        System.out.println("HelloWorld");
+        Date date = new Date();
+    } //akhiran block
+} //akhiran block
